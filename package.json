@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "eightyfour"
+  },
+  "name": "xxo",
+  "description": "XXO game based on websockets",
+  "version": "0.0.1",
+  "main": "lib/server.js",
+  "scripts": {
+    "js": "browserify lib-client/main.js -o dist/main.js",
+    "start" : "node demo-app.js"
+  },
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "dependencies": {
+    "canny": "^0.2.1",
+    "dnode": "^1.2.2",
+    "message-toast": "github:eightyfour/message-toast",
+    "shoe": "0.0.15"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "express": "^4.15.3"
+  }
+}
